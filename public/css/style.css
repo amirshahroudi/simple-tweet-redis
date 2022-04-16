@@ -1,0 +1,33 @@
+body {
+    background: #6a6a6a;
+}
+
+body,
+button,
+input,
+optgroup,
+select,
+textarea {
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.custom-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 1140px) {
+    .custom-container {
+        margin: 0 20px;
+    }
+}
+
+.login-box {
+    width: 400px;
+}
+
+@media screen and (max-width: 400px) {
+    .login-box {
+        margin: 0 10px;
+    }
+}
